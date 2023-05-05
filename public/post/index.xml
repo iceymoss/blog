@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on iceymoss</title>
+    <link>http://iceymoss.github.io/post/</link>
+    <description>Recent content in Posts on iceymoss</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://iceymoss.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://iceymoss.github.io/post/api%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://iceymoss.github.io/post/api%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E/</guid>
+      <description>接口说明 所有教室的所有课程 api地址 http://1.14.180.202:8080/v1/course/list 参数说明 名称 方法类型 参数 课程列表 get 无 获取某教室一天的课程 api地址 http://1.14.180.202:8080/v1/course/course_cw?room_id=x&amp;amp;day=y 参数说明 名称 方法类型 参数 教室日课程 get room_id：教室id ; day：日时间 示例：
+获取教室id为0并且周1的课程
+http://1.14.180.202:8080/v1/course/course_cw?room_id=0&amp;amp;day=1 获取教室一周的课程 api地址 http://1.14.180.202:8080/v1/course/course_id?room_id=x 参数说明 名称 方法类型 参数 教室周课程 get room_id：教室id 示例：
+查询教室id=4一周的课程
+http://1.14.180.202:8080/v1/course/course_id?room_id=4 添加课程 api地址 http://1.14.180.202:8080/v1/course/new 参数说明 名称 方法类型 参数 添加课表 post name：课程名称 is_bi_week：是否单双周 course_id：课程id teacher：教师 student_total：上课人数 time：上课时间(例如：第1-2节) class_room：教室名称(例如：D7尚美楼308) class_room_id：教室id week：周时间(例如：3) week_nums：课程时长(例如：第1-16) </description>
+    </item>
+    
+  </channel>
+</rss>
