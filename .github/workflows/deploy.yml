@@ -35,4 +35,4 @@ jobs:
           EXTERNAL_REPOSITORY: iceymoss/iceymoss.github.io
           PUBLISH_BRANCH: main
           publish_dir: ./public
-          publish_branch: deploy # deploying branch
+          #publish_branch: deploy deploying branch
